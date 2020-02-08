@@ -1,0 +1,1 @@
+Developers create web applications that are access through browsers. Developers must have a basic understanding of how browsers work, in order to build secure web applications. Indeed, some default behaviour of browsers can have a positive (or negative) impact on security, and developers must be aware of these defaults as well as how to change such default behaviour if required. 
