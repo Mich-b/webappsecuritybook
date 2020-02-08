@@ -1,4 +1,5 @@
-# Introduction
+# Summary​
+## Introduction
 * Cyber security principles
     * [Intro](001introduction\001cybersecurityprinciples\000intro.md)
 * Basic web concepts
@@ -15,14 +16,14 @@
     * [Cross-Origin Resource Sharing (CORS)](001introduction\003basicbrowsersecurityconcepts\002crossoriginresourcesharing.md)
     * [Cookies](001introduction\003basicbrowsersecurityconcepts\003cookies.md)
 
-# Access Control: Basics
+## Access Control: Basics
 
-# Access Control: Advanced
+## Access Control: Advanced
 
-# Injection attacks
+## Injection attacks
 
-# HTTPS
+## HTTPS
 
-# HTTP Headers for security
+## HTTP Headers for security
 
-# Assignment
+## Assignment
