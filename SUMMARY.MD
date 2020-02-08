@@ -1,6 +1,3 @@
-# How to use this book
-* [Get started](000howtousethisbook/getstarted.md)
-
 # Introduction
 * Cyber security principles
     * [Intro](001introduction\001cybersecurityprinciples\000intro.md)
