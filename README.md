@@ -1,6 +1,6 @@
 # Welcome 
 Welcome to the Software Security gitbook. This book should help you in maintaining the overview of the course and provide you with a written form of the course contents.
-I will be copying most information from either the MDN or the OWASP websites. Their licenses are as follows:
+I will be copying most information from Wikipedia, the MDN, or the OWASP websites. Their licenses are as follows:
 * MDN: licensed under CC-BY-SA 2.5
 * OWASP: FLOSS license
 * Wikipedia: licensed under CC-BY-SA 3
@@ -14,11 +14,8 @@ These sources allow copying information as long as they are attributed.
 ```
 Some parts of this page are based on [Cryptographic hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function) by Wikipedia, which is licensed under [CC-BY-SA 3](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License).
 
-```
-```
 Some parts of this page are based on [SQL](https://developer.mozilla.org/en-US/docs/Glossary/SQL) by Mozilla Contributors, which is licensed under [CC-BY-SA 2.5](http://creativecommons.org/licenses/by-sa/2.5/).
-```
-```
+
 Some parts of this page are based on the [OWASP Authentication cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html), which is licensed under [FLOSS](https://owasp.org/about/).
 ```
 

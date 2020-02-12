@@ -12,7 +12,8 @@ Common examples of session identifiers in cookies are cookies with the name `JSE
 * A session identifier must be meaningless to prevent information disclosure attacks
 * It is essential to use an encrypted HTTPS connection for the entire web session, to prevent the session identifier from leaking
 * The cookie containing the session identifier should be marked as 'secure' to prevent it from being transmitted over insecure HTTP connections
-* The cookie containing the session identifier should be marked as 'httponly' to not allow scripts access to it in the case of XSS (this cookie flag will discussed in more detailed in the XSS chapter)
+* The cookie containing the session identifier should be marked as 'httponly' to not allow scripts access to it in the case of XSS (this cookie flag will be discussed in more detailed in the XSS chapter)
+* The cookie containing the session identifier may be marked as 'samesite', but be sure to understand the potential impact setting this flag may have (this cookie flag will be discussed in more detail in the CSRF chapter)
 
 Most web development frameworks such as J2EE, ASP.NET, PHP, and other provide their own session management features and associated implementation. It is recommended to use these built-in frameworks versus building a home made one from scratch. 
 
