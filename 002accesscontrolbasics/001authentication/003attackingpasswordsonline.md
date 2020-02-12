@@ -12,7 +12,7 @@ Different protection mechanisms can be implemented to protect against these atta
 The following sections will focus primarily on preventing brute-force attacks, although these controls can also be effective against other types of attacks. 
 
 ## Use strong passwords
-See the [section about password guidelines](002accesscontrolbasics\001authentication\001passwords.md).
+See the [section about password guidelines](../../002accesscontrolbasics\001authentication\001passwords.md).
 
 ## Multi-Factor Authentication
 Multi-factor authentication (MFA) is by far the best defense against the majority of password-related attacks, including brute-force attacks, with analysis by Microsoft suggesting that it would have stopped 99.9% of account compromises. 

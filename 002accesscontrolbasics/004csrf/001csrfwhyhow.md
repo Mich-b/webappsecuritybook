@@ -5,7 +5,7 @@ A general property of web browsers is that they will automatically and invisibly
 ![](docimages/2020-02-12-18-07-34.png)
 
 # What about the same-origin policy?
-The [same-origin policy](001introduction\003basicbrowsersecurityconcepts\001sameoriginpolicy.md) protects against cross-origin reads, not against cross-origin writes. CSRF only cares about cross-origin writes, and therefore the same-origin policy can not help in preventing these attacks. 
+The [same-origin policy](../../001introduction\003basicbrowsersecurityconcepts\001sameoriginpolicy.md) protects against cross-origin reads, not against cross-origin writes. CSRF only cares about cross-origin writes, and therefore the same-origin policy can not help in preventing these attacks. 
 
 According to [RFC2616](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html#sec9.1.1), you should never use a GET to alter state server side. In other words, CSRF should only be applicable to POST, PUT, or DELETE operations. GET requests are only used for retrieval and are protected by the same-origin policy.  
 

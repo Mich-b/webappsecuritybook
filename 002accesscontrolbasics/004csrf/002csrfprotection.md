@@ -68,7 +68,7 @@ The anti-CSRF token in the form above has two important properties:
 An attacker browsing to that same form to copy it in preparation of the attack will receive a different anti-CSRF token, one that's linked to the attacker's account. When the victim unwillingly submits the attacker's form, the server verification of the anti-CSRF token will **fail since the victim's submission contains the attacker's CSRF token**, which is not allowed.
 
 ## Set the samesite cookie flag
-> Before proceeding, please read and understand the [cookie](001introduction\003basicbrowsersecurityconcepts\003cookies.md) section of the basic browser security concepts section. That section explains the SameSite cookie flag in detail. 
+> Before proceeding, please read and understand the [cookie](../../001introduction\003basicbrowsersecurityconcepts\003cookies.md) section of the basic browser security concepts section. That section explains the SameSite cookie flag in detail. 
 
 As you know, a browser's decision to attach a cookie to the request is based on that cookies' scope, made up of the domain and path (and optionally the scheme). If the scope of the request equals the scope of the cookie, the cookie is attached. Browsers don't care about the origin of the request, they only care about the cookie's scope and the request's scope. 
 

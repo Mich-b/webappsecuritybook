@@ -4,13 +4,13 @@ Apart from attempting brute-force attacks against live systems, attackers may fi
 Most defensive measures against brute-force attacks discussed before occur at the logic tier, therefore they will not be very useful against an attacker that is able to obtain a copy of the database. However, when passwords are stored securely, we can still prevent attacker from getting the password even if the datastore is obtained.
 
 # Securely storing passwords
-> Make sure you have read and understood the section about [hashing](001introduction\004basicsecurityconcepts\001hashing.md). 
+> Make sure you have read and understood the section about [hashing](../../001introduction\004basicsecurityconcepts\001hashing.md). 
 
 ## Attempt 1 - store passwords plaintext
 Obviously, when the passwords are stored plain-text in the database, it is trivial for the attacker to extract them. The passwords are now known to the attacker and can be used to login or to reuse them against other services. 
 
 ## Attempt 2 - hash passwords
-As we've seen in the section about [hashing](001introduction\004basicsecurityconcepts\001hashing.md), it is infeasible to go back from a hash to the original message. Therefore, if we store the password using a hash, let's say SHA256, we are safe right? 
+As we've seen in the section about [hashing](../../001introduction\004basicsecurityconcepts\001hashing.md), it is infeasible to go back from a hash to the original message. Therefore, if we store the password using a hash, let's say SHA256, we are safe right? 
 
 As we've seen in the section about hashing, 'the only way to find a message that produces a given hash is to attempt a brute-force search of possible inputs to see if they produce a match'. Now, if your input to the hash function (the password) is unique, a brute-force search is infeasible. However, if your input (the password) is easily guessable, the hash is worth nothing. 
 
