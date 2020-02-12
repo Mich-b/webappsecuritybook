@@ -1,3 +1,4 @@
+# Same-origin policy
 The **same-origin policy** is a critical security mechanism that restricts how a document or script loaded from one origin can interact with a resource from another origin. It helps isolate potentially malicious documents, reducing possible attack vectors.
 However, since the web originally had no security boundaries built in, SOP was only added later. This sadly means that SOP does not apply to everything and thus makes it sometimes hard to understand. In what follows, an overview is given of which requests are subject to the SOP and which ones are not. 
 

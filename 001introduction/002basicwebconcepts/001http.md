@@ -1,3 +1,4 @@
+# HTTP
 Hypertext Transfer Protocol (HTTP) is an application layer protocol used to transmit data between a web client and a web server. The client issues a request and waits for a response from the server. The server can only send data in response to a request. 
 
 ![](docimages/2020-02-08-11-53-03.png)

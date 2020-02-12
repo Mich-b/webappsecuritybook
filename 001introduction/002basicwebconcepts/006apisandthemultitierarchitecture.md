@@ -1,4 +1,3 @@
-
 # Multitier architecture
 A typical architecture used in software is the multitier architecture. The amount of tiers can differ, depending on the complexity of the application. In its most simplest form, there is just one tier. However, this is bad software design and small changes will have a large impact. 
 
