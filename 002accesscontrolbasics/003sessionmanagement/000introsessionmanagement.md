@@ -1,5 +1,5 @@
 # Session management - hijacking
-As covered in the section about [http](../001introduction/002basicwebconcepts/001http.md) and [cookies](001introduction\002basicwebconcepts\003cookies.md), the HTTP protocol is stateless. However, developers can implement session management capabilities into their application to tie HTTP requests and responses together in one single session. 
+As covered in the section about [http](../../001introduction/002basicwebconcepts/001http.md) and [cookies](../../001introduction\002basicwebconcepts\003cookies.md), the HTTP protocol is stateless. However, developers can implement session management capabilities into their application to tie HTTP requests and responses together in one single session. 
 
 Most often, this is done by setting a session cookie which contains a unique session identifier. When used in conjunction with access control, the session identifier binds the user authentication credentials to the user's HTTP traffic. This way, the application can not only tie HTTP sessions together, but can it also know which identity is executing the actions. 
 
