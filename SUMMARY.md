@@ -29,6 +29,10 @@
     * [Protecting against CSRF attacks](002accesscontrolbasics\004csrf\002csrfprotection.md)
 
 ## Access Control: Advanced
+* [Authentication](003accesscontroladvanced\001authenticationadvanced\000introauthenticationadvanced.md)
+    * [Federation](003accesscontroladvanced\001authenticationadvanced\001federation.md)
+    * [Alternative authentication mechanisms](003accesscontroladvanced\001authenticationadvanced\002alternativeauthenticationmechanisms.md)
+    * [FIDO2 and WebAuthn](003accesscontroladvanced\001authenticationadvanced\003fidowebauthn.md)
 
 ## Injection attacks
 
