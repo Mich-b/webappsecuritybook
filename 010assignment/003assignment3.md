@@ -3,3 +3,8 @@ Create a web application where users can register themselves with a username and
 At least, the [HIBP](https://haveibeenpwned.com/) password list should be used as a blacklist. Adhere to the secure password guidelines as discussed in class. 
 
 Using black-box breached password mechanisms of vendors is not allowed. For example, using [this](https://auth0.com/breached-passwords) is not allowed. Although in practice this may be a very good option, the goal of this exercise to teach you how to handle requests like this when no out of the box solutions are available. 
+
+# Assignment clarification
+Based on some questions from your colleagues, the following clarifications were provided:
+* the application should store passwords
+* the application should have a login screen where users can authenticate themselves using their registered username and password. 
