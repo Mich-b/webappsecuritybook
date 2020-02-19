@@ -1,11 +1,13 @@
 # Welcome 
 Welcome to the Software Security gitbook. This book should help you in maintaining the overview of the course and provide you with a written form of the course contents.
-I will be copying most information from Wikipedia, the MDN, or the OWASP websites. Their licenses are as follows:
+I will be copying information from Wikipedia, the MDN, or the OWASP websites. Their licenses are as follows:
 * MDN: licensed under CC-BY-SA 2.5
 * OWASP: FLOSS license
 * Wikipedia: licensed under CC-BY-SA 3
 
 These sources allow copying information as long as they are attributed. 
+
+Pages that do not contain a source attribution are my own and are released under CC-BY-SA 4.0 .
 
 **Never attempt to hack systems that are not your own (including the server infrastructure) unless you get a written permission first. Hacking is prohibited by law. **
 
