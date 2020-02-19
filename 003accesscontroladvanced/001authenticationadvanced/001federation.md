@@ -5,22 +5,24 @@ Imagine three applications exist in an enterprise:
 * Order system
 * AWS
 
-The following would likely be a correct visual representation of the architecture, with a focus on authentication:
-![](docimages/2020-02-19-07-31-51.png)
+The following would likely be a correct visual representation of the architecture:
 
-In other words, each application has its own authentication logic and (shared) user database where passwords are stored in a secure manner. This authentication logic is likely very similar in all three applications. Changes to it would require redundant code changes (for example, adding multi-factor authentication would impact all three authentication components). 
+![](docimages/2020-02-19-07-31-51.png \| height=100px])
+
+In other words, each application has its own authentication logic (the purple part) and a (shared) user database where passwords are stored. This authentication logic is likely very similar in all three applications. Changes to it would require redundant code changes (for example, adding multi-factor authentication would impact the authentication component of all three applications). 
 
 A much better solution would be to decouple the authentication logic from the rest of the application logic, like so:
+
 ![](docimages/2020-02-19-07-39-23.png)
 
-The applications now have to _trust_ the authentication component. The existance of this trust is why this pattern is called _federation_. Consider the authentication component as the federal government, and the three applications as regions. The regions have a lot of control, but one responsibility (authentication) is shifted to the central government. 
+The applications now have to _trust_ the authentication component. The existance of trust is why this pattern is called _federation_. Applications trust a central authentication component, to which they federate the authentication responsibility. 
+
+The _PEP_ on the image is the _Policy Enforcement Point_. This is a generic term for the small part of logic that has to remain in each application to make sure a user went through the central authentication component before trying to access the application. 
 
 ## Federation concepts
 ### Tokens
 Typically, when the authenication component is separated from the other applications, security tokens are used to communicate identity information from the authentication component to the other applications. 
 ![](docimages/2020-02-19-07-50-50.png)
-
-The _PEP_ on the image is the _Policy Enforcement Point_. This is a generic term for the small part of logic that has to redirect the user to the authentication component in case that user does not provide a valid security token. This _PEP_ also consumes the security token. 
 
 * A security token contains claims about a user
 * A claim is a statement that one subject makes about itself or another subject. Claims are issued by a provider, and are given one or more values. Examples of claims:
