@@ -15,6 +15,7 @@ The impact of this should not be misunderstood: any web-based application can no
 
 ## What is the link with the federation protocols
 Let's look at the same OIDC flow that we discussed before, but now in a situation where the user authenticates using a FIDO2 authenticator:
+
 ![](docimages/2020-02-19-08-49-47.png)
 
 The only change in the flow is the purple part. Instead of using a simple authentication mechanis such as passwords, a Yubikey is used to authenticate the user. 

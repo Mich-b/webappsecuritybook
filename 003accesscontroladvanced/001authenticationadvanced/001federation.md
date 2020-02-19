@@ -7,7 +7,7 @@ Imagine three applications exist in an enterprise:
 
 The following would likely be a correct visual representation of the architecture:
 
-![](docimages/2020-02-19-07-31-51.png \| height=100px])
+![](docimages/2020-02-19-07-31-51.png)
 
 In other words, each application has its own authentication logic (the purple part) and a (shared) user database where passwords are stored. This authentication logic is likely very similar in all three applications. Changes to it would require redundant code changes (for example, adding multi-factor authentication would impact the authentication component of all three applications). 
 
@@ -22,6 +22,7 @@ The _PEP_ on the image is the _Policy Enforcement Point_. This is a generic term
 ## Federation concepts
 ### Tokens
 Typically, when the authenication component is separated from the other applications, security tokens are used to communicate identity information from the authentication component to the other applications. 
+
 ![](docimages/2020-02-19-07-50-50.png)
 
 * A security token contains claims about a user
@@ -73,12 +74,13 @@ In OpenId Connect (OIDC) the _authentication component_ is called _OpenId Connec
 * access token (the OAuth2 part of the flow)
 
 OIDC is mainly used in applications using a JavaScript front-end calling back-end APIs, but may be used in other environments as well. A complete example flow is displayed below. In this example, a JavaScript front-end (the demo app - called _Relying Party_ in OIDC) calls a secured back-end (the API - called _Resource Server_). 
+
 ![](docimages/2020-02-19-08-47-57.png)
 
 The flow used in the example is called the _Authorization Code flow_. It is currently best practice to use this flow in favor of its deprecated alternative (the _implicit flow_). Also note that the identity token is used by the relying party, and is **never** used to call an API. Calling an API requires the use of the access token. 
 
 > Refresh tokens, while an important part of the protocol flows discussed, are out of scope for the course. If you want to know more about them, [here's a good start](https://auth0.com/learn/refresh-tokens/). 
-> 
+
 ## Single Sign On
 Single Sign On is defined differently depending on the source you consult, but it basically means that a user has to authenticate once and is then able to use many (if not all) applications without having to authenticate again. 
 
