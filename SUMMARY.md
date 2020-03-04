@@ -35,7 +35,15 @@
     * [FIDO2 and WebAuthn](003accesscontroladvanced\001authenticationadvanced\003fidowebauthn.md)
 
 ## Injection attacks
-
+* [Injection attacks](004injectionattacks\000introinjectionattacks.md)
+* [SQL Injection](004injectionattacks\001sqlinjection.md)
+* [Command Injection](004injectionattacks\002commandinjection.md)
+* [Cross-site scripting](004injectionattacks\003xss\000introxss.md)
+    * [Input validation](002accesscontrolbasics\001authentication\001passwords.md)
+    * [Context sensitive output encoding](004injectionattacks\003xss\002xsscontextsensitiveoutputencoding.md)
+    * [Content Security Policy](004injectionattacks\003xss\003xsscsp.md)
+* [Subresource integrity](004injectionattacks\004sri.md)
+* [Sandboxing](004injectionattacks\005sandboxing.md)
 ## HTTPS
 
 ## HTTP Headers for security
