@@ -48,6 +48,12 @@
 ## HTTPS
 
 ## HTTP Headers for security
+* [HTTP Headers](006httpheadersforsecurity\introhttpheadersforsecurity.md)
+
+## Bringing it all together
+
+## Threat Modeling
+* [Threat modeling](008threatmodeling\000introthreatmodeling.md)
 
 ## Assignment
 * [General instructions](010assignment\000general.md)
