@@ -53,7 +53,8 @@
 ## Bringing it all together
 
 ## Threat Modeling
-* [Threat modeling](008threatmodeling\000introthreatmodeling.md)
+* [Threat modeling introduction](008threatmodeling\000introthreatmodeling.md)
+* [Threat modeling basics](008threatmodeling\001threatmodelingbasics.md)
 
 ## Assignment
 * [General instructions](010assignment\000general.md)
