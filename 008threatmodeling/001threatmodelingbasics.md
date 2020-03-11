@@ -31,6 +31,7 @@ Now that you have your model, it's time to investigate it for threats. Gather yo
 * **E**levation of privilege
 
 Each of these categories can be applied to some of the DFD components that we saw previously. The mapping is given in the table below:
+
 ![](docimages/2020-03-11-08-57-15.png)
 
 Let's take tampering as an example. Tampering means that an unauthorized attacker is able to modify the data. In other words, tampering violates our integrity principle. The tampering threat category can be applied to all components except for external entities. That's pretty intuitive: an attacker can tamper with the data flow, the data store, or the process, but it is hard to tamper with a user (unless you would consider social engineering tampering, but let's not go down that road). So, this table tells us that we should not worry about tampering threats for the external entities in our diagram, but we should do so for all the other components. 
