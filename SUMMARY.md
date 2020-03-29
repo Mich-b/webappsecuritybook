@@ -56,12 +56,12 @@
 ## HTTP Headers for security
 * [HTTP Headers](006httpheadersforsecurity\introhttpheadersforsecurity.md)
 
-## Bringing it all together
-* [A comprehensive overview of controls](007bringingitalltogether.md)
-
 ## Threat Modeling
 * [Threat modeling introduction](008threatmodeling\000introthreatmodeling.md)
 * [Threat modeling basics](008threatmodeling\001threatmodelingbasics.md)
+
+## Bringing it all together
+* [A comprehensive overview of controls](007bringingitalltogether.md)
 
 ## Assignment
 * [General instructions](010assignment\000general.md)
