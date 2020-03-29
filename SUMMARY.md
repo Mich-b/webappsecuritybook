@@ -61,7 +61,7 @@
 * [Threat modeling basics](008threatmodeling\001threatmodelingbasics.md)
 
 ## Bringing it all together
-* [A comprehensive overview of controls](007bringingitalltogether.md)
+* [A comprehensive overview of controls](007bringingitalltogether.md\000introbringingitalltogether.md)
 
 ## Assignment
 * [General instructions](010assignment\000general.md)
