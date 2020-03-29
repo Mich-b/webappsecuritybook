@@ -57,6 +57,7 @@
 * [HTTP Headers](006httpheadersforsecurity\introhttpheadersforsecurity.md)
 
 ## Bringing it all together
+* [A comprehensive overview of controls](007bringingitalltogether.md)
 
 ## Threat Modeling
 * [Threat modeling introduction](008threatmodeling\000introthreatmodeling.md)
