@@ -5,6 +5,7 @@ Due to the COVID-19 situation the exam format has changed from a digital exam to
 ## Case 1: I'm working on the project
 You will already have created a blueprint, and you are currently in the implementation phase.
  
+* You are expected to review the _group list_ (attached in Digitap) and make sure it contains the correct project group ID
 * You are expected to create a document outlining the security strategy (see below);
 * You are expected to apply the concepts you have learned in the Software Security course in this implementation phase;
 * You are expected to submit this via Digitap (one per team) before the 15th of June.
@@ -13,7 +14,7 @@ You will already have created a blueprint, and you are currently in the implemen
 You will not have a blueprint. 
 
 * You are expected to form a group with other 'case 2' students and communicate this group membership to me via email. Groups are between 2 and 3 people max;
-* You are expected to create a document outlining the security strategy (see below) based on the example blueprint of group 6 (attached in Digitap);
+* You are expected to create a document outlining the security strategy (see below) based on the example _blueprint of group 6_ (attached in Digitap);
 * You are expected to submit this via Digitap (one per team) before the 15th of June.
 
 ## Case 3: I'm working on the project since I had to retake it, but I passed the Software Security course already (in a previous year)
