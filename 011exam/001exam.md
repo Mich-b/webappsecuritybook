@@ -28,9 +28,11 @@ You are employed as a security consultant and are asked to review a blueprint do
 * Context of the project: what are the security / privacy requirements?
 * Threat model: what's the threat model? Who / what are we defending against?
 * Authentication: how do users authenticate? What are the risks? Is access revoked when users leave AP?
-* Authorization: how are uses authorized? 
+* Authorization: how are users authorized? 
 * Secure coding: based on the technologies used, which coding guidelines are most important? How do we make sure we adhere to these guidelines? Do we use a checklist? 
-* <optional> Release: how do we protect our source code? How is access to the server protected? 
+* Release: how did we set up HTTPS?  
+
+Note, the questions linked to each topic are simply examples. There may be other things that are important to consider. Please review the course book. 
 
 ## How many pages does it have to be?
 A good advice is clear and to the point. There is no predetermined best length. A visualization may say more than a thousand words, but may take up more or less space than these thousand words. 
