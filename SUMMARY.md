@@ -71,3 +71,4 @@
 
 ## Exam
 * [Exam](011exam\001exam.md)
+* [Exam retake august 2020](011exam\002examretake.md)
