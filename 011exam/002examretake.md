@@ -26,5 +26,7 @@ Other formatting requirements are the following:
 # Will there be an oral defense
 Yes, a 10-minute virtual interview will be held through Teams on August the 27th. You should have received an invitation. If you have not received an invitation, if you are unable to attend at that time, or if you have to retake the exam but have not received an invitation, contact me as soon as possible: michael.boeynaems@ap.be . 
 
+**You must accept the Teams meeting invitation**, or else I assume you do not wish to retake the exam.
+
 # Deadline
 The submission deadline is August 25th, 23:59. The interview takes place on August the 27th. 
