@@ -7,7 +7,7 @@
     * [Cookies](001introduction\002basicwebconcepts\003cookies.md)
     * [SQL](001introduction\002basicwebconcepts\004sql.md)
     * [DOM](001introduction\002basicwebconcepts\005dom.md)
-    * [APIs and the multier architecture](001introduction\002basicwebconcepts\006apisandthemultitierarchitecture.md)
+    * [APIs and the multitier architecture](001introduction\002basicwebconcepts\006apisandthemultitierarchitecture.md)
 * [Basic browser security concepts](001introduction\003basicbrowsersecurityconcepts\000introbasicbrowsersecurityconcepts.md)
     * [Same-Origin Policy (SOP)](001introduction\003basicbrowsersecurityconcepts\001sameoriginpolicy.md)
     * [Cross-Origin Resource Sharing (CORS)](001introduction\003basicbrowsersecurityconcepts\002crossoriginresourcesharing.md)
