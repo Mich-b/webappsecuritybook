@@ -19,7 +19,7 @@
 * [Authentication](002accesscontrolbasics\001authentication\000introauthentication.md)
     * [Passwords](002accesscontrolbasics\001authentication\001passwords.md)
     * [Password managers](002accesscontrolbasics\001authentication\002passwordmanagers.md)
-    * [Attacking passwords - online](002accesscontrolbasics\001authentication\002passwordmanagers.md)
+    * [Attacking passwords - online](002accesscontrolbasics\001authentication\003attackingpasswordsonline.md)
     * [Attacking passwords - offline](002accesscontrolbasics\001authentication\004attackingpasswordsoffline.md)
 * [Authorization](002accesscontrolbasics\001authentication\000introauthorization.md)
     * [Insecure direct object references](002accesscontrolbasics\002authorization\001insecuredirectobjectreferences.md)

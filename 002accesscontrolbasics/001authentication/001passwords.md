@@ -2,7 +2,7 @@
 Something you are mechanisms such as passwords are among the most used authentication mechanisms out there. The reason they are is because passwords are often created by humans and must be remembered by humans, resulting in weak passwords. 
 
 # Password guidelines
-To prevent attackers from simply guessing user's passwords, password guidelines were created that introduced complexity rules on passwords. The idea was to increase the unpredictability of a password (entropy), and thus making it less likely to be cracked by a bruteforce attack (see later). Composition rules were amongts the most common guidelines: you had to use at least one digit and symbol and capital and lowercase character. However, analyses of breached password databases have shown that the benefit of these rules is not as significant as we initially thought. 
+To prevent attackers from simply guessing user's passwords, password guidelines were created that introduced complexity rules on passwords. The idea was to increase the unpredictability of a password (entropy), and thus making it less likely to be cracked by a bruteforce attack (see later). Composition rules were amongst the most common guidelines: you had to use at least one digit and symbol and capital and lowercase character. However, analyses of breached password databases have shown that the benefit of these rules is not as significant as we initially thought. 
 
 Therefore, [NIST has released a new version of the guidelines](https://pages.nist.gov/800-63-3/sp800-63b.html#memsecret) which explicitly discourages the use of composition rules to determine a password's strength. Rather, they provide two simple rules that application owners should implement:
 * Require users to choose a password of at least 8 characters
