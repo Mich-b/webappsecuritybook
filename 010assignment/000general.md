@@ -7,8 +7,8 @@ Create one (1) document in the English language in markdown or MS Office or Open
 * The URL of your running application. All assignments involve creating an application of some sort, which must be hosted on the Internet. Several free options to host a website exist (AWS, Netlify, etc.). 
 * A high-quality description of the assignment and the results. You should treat me as a customer of yours. I expect a description of the development steps you took. In addition for assignment #2, I expect a detailed description of the results (advantages - disadvantages) along with a recommendation. 
 
-# Deadline
-This assignment counts as 45% of the total course grade. The submission deadline is March 18th, 23:59.
+# Scoring & deadline
+This assignment counts for 45% of the total Software security & testing course grade. The submission deadline is DATE TO BE DETERMINED.
 
 # Tools
 All of the assignments can be finished by using free tools such as Netlify, Heroku, [Azure for students](https://azure.microsoft.com/en-us/free/students/), [AWS educate](https://aws.amazon.com/education/awseducate/), and others. Please contact me in case you think you cannot finish the assignments without having to purchase software. 

@@ -1,5 +1,8 @@
 # Introduction
-Due to the COVID-19 situation the exam format has changed from a digital exam to a written assignment outlining the security strategy taken during your project. This security strategy will have to be defended during a virtual interview. 
+The exam involves a written assignment outlining the security strategy taken during your project. This security strategy will have to be defended during a virtual interview. 
+
+# Scoring 
+This exam counts for 30% of the total course grade. 
 
 # Possible cases
 ## Case 1: I'm working on the project
@@ -40,10 +43,10 @@ A good advice is clear and to the point. There is no predetermined best length. 
 However, I would expect a solid advice to count somewhere between 5 to 15 pages. 
 
 ## What does the defense look like
-On the 17th of June a +-20-minute interview will be planned with your team. This interview will be separate from the project review interview, which takes place on the same day. 
+On DATE TO BE DETERMINED a +-20-minute interview will be planned with your team. This interview will be separate from the project review interview, which takes place on the same day. 
 
 I will be asking some questions about the recommendations you made. For those who have been implementing the project, I may ask concrete questions about how certain recommendations were implemented or configured. 
 In case I have doubts about your understanding of certain concepts, I may ask a theoretical question here and there. Be sure to review the course book before this interview. 
 
 ## Questions
-A session where you can ask questions has been scheduled on May 12th at 9AM. The link to join can be found in the Software Security Teams channel. 
+A session where you can ask questions has been scheduled on DATE TO BE DETERMINED. The link to join can be found in the Software Security Teams channel. 

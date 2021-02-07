@@ -1,4 +1,6 @@
 # Summary​
+## Prerequisites
+* [Prequisites](000prerequisites\001prerequisites.md)
 ## Introduction
 * [Cyber security principles](001introduction\001cybersecurityprinciples\000introcybersecurityprinciples.md)
 * [Basic web concepts](001introduction\002basicwebconcepts\000introbasicwebconcepts.md)
@@ -63,7 +65,7 @@
 ## Bringing it all together
 * [A comprehensive overview of controls](007bringingitalltogether.md\000introbringingitalltogether.md)
 
-## Assignment
+<!-- ## Assignment
 * [General instructions](010assignment\000general.md)
     * [Assignment # 1](010assignment\001assignment1.md)
     * [Assignment # 2](010assignment\002assignment2.md)
@@ -71,4 +73,4 @@
 
 ## Exam
 * [Exam](011exam\001exam.md)
-* [Exam retake august 2020](011exam\002examretake.md)
+* [Exam retake august 2020](011exam\002examretake.md) -->
