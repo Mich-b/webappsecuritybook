@@ -15,6 +15,7 @@
     * [Same-Origin Policy (SOP)](001introduction\003basicbrowsersecurityconcepts\001sameoriginpolicy.md)
     * [Cross-Origin Resource Sharing (CORS)](001introduction\003basicbrowsersecurityconcepts\002crossoriginresourcesharing.md)
     * [Cookies](001introduction\003basicbrowsersecurityconcepts\003cookieflags.md)
+    * [Tracking](001introduction\003basicbrowsersecurityconcepts\004tracking.md)
 * [Basic security concepts](001introduction\004basicsecurityconcepts\000introbasicsecurityconcepts.md)
     * [Hashing](001introduction\004basicsecurityconcepts\001hashing.md)
 
