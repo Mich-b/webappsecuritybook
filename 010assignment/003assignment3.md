@@ -1,10 +1,7 @@
 # Goal
-Create a web application where users can register themselves with a username and password. Make sure the password conforms to the rules set forth by https://pages.nist.gov/800-63-3/sp800-63b.html section 5.1.1.1. 
-At least, the [HIBP](https://haveibeenpwned.com/) password list should be used as a blacklist. Adhere to the secure password guidelines as discussed in class. 
+Create a web application that may only be accessed by authenticated users. While in reality you would likely use external providers (Firebase, Auth0, ...), this is not allowed in this assignment since I want you to understand the complexities of password storage. This means you will need to set up some kind of datastore in this assignment.
 
-Using black-box breached password mechanisms of vendors is not allowed. For example, using [this](https://auth0.com/breached-passwords) is not allowed. Although in practice this may be a very good option, the goal of this exercise to teach you how to handle requests like this when no out of the box solutions are available. 
+In your application, users must be able to sign up with a username/email and password. During signup, you must enforce that the password conforms to the rules set forth by https://pages.nist.gov/800-63-3/sp800-63b.html section 5.1.1.1. 
+At least, the [HIBP](https://haveibeenpwned.com/) password list should be used as a blacklist. You must adhere to the secure password storage guidelines as discussed in class.
 
-# Assignment clarification
-Based on some questions from your colleagues, the following clarifications were provided:
-* the application should store passwords
-* the application should have a login screen where users can authenticate themselves using their registered username and password. 
+You will not be graded on the actual functionalities of your application, so simply showing a 'welcome' page after authenticating is fine. 
