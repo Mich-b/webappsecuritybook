@@ -47,7 +47,8 @@
 * [Cross-site scripting](004injectionattacks\003xss\000introxss.md)
     * [Input validation](004injectionattacks\003xss\001xssinputvalidation.md)
     * [Context sensitive output encoding](004injectionattacks\003xss\002xsscontextsensitiveoutputencoding.md)
-    * [Content Security Policy](004injectionattacks\003xss\003xsscsp.md)
+    * [About the HttpOnly flag](004injectionattacks\003xss\003abouthttponly.md)
+    * [Content Security Policy](004injectionattacks\003xss\004xsscsp.md)
 * [Subresource integrity](004injectionattacks\004sri.md)
 * [Sandboxing](004injectionattacks\005sandboxing.md)
 
