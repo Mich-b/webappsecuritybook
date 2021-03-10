@@ -12,7 +12,7 @@ using (DbDataContext context = new DbDataContext())
 }
 ```
 
-If `model.ProductCode` can be controlled by the user (e.g. https://www.example.org/products/12, where `12` is the productcode), the above code is vulnerable to SQL injection. An attacker may input the following 'productcode': `;SELECT * FROM users;`
+If `model.ProductCode` can be controlled by the user (e.g. https://www.example.org/products/12, where `12` is the productcode), the above code is vulnerable to SQL injection. An attacker may input the following 'productcode': `;SELECT * FROM users;`, leading to the following request: `https://www.example.org/products/;SELECT * FROM users;`
 This would result in the following query:
 
 ```
@@ -20,6 +20,7 @@ SELECT Name from Items where ProductCode = ;SELECT * FROM users;
 ```
 
 Our parameter `;SELECT * FROM users;` is interpreted as SQL code. Can you imagine what the results will be? What if the `users` table contains sensitive data such as plaintext passwords?
+Note that a SQL injection payload that is often used to test for SQL injection vulnerabilities is `' OR 1=1--`: the `'` tricks the server into thinking the rest of the payload is part of the query, and the `--` comments out the rest of the query which may be present server-side. 
 
 # Prevent SQL injection
 Fool-proof mechanisms exist in almost every programming language to prevent SQL injection from occurring. Typically, the following prevention measures exist:
