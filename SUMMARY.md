@@ -31,6 +31,8 @@
 * [CSRF](002accesscontrolbasics\004csrf\000introcsrf.md)
     * [CSRF: why & how it works](002accesscontrolbasics\004csrf\001csrfwhyhow.md)
     * [Protecting against CSRF attacks](002accesscontrolbasics\004csrf\002csrfprotection.md)
+* [SSRF](002accesscontrolbasics\005ssrf\000introssrf.md)
+    * [SSRF: how it works and how we can protect against it](002accesscontrolbasics\005ssrf\001ssrfwhyhow.md)
 
 ## Access Control: Advanced
 * [Authentication](003accesscontroladvanced\001authenticationadvanced\000introauthenticationadvanced.md)
