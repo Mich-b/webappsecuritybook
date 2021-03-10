@@ -3,6 +3,12 @@ We have already covered the use of two security headers: `Content Security Polic
 
 Other HTTP headers which are designed for security exist. They are very easy to configure and are a quick win in most cases. 
 
+## Content Security Policy
+See [CSP](..\004injectionattacks\003xss\004xsscsp.md)
+
+## Strict-Transport-Security
+See [Setting up HTTPS](..\005https\003settinguphttps.md)
+
 ## X-Frame-Options
 `X-Frame-Options` is the predecessor of the `frame-ancestors` directive of `Content Security Policy`. It can be used to indicate whether or not a browser should be allowed to render a page in a `<frame>`, `<iframe>`, `<embed>` or `<object>`. Sites can use this to avoid clickjacking attacks, by ensuring that their content is not embedded into other sites.
 
