@@ -13,7 +13,7 @@ Examples of requests to applications that are not intended to be exposed but tha
 # How can we protect against SSRF?
 The first defense would of course be to not have any back-end functionality in place that requires calling an external URL based on user input. 
 
-However, if such functionality is required, two main defense mechanisms should be deployed:
+However, if such functionality is required, the following defense mechanisms should be deployed:
 * whitelist + input validation: ensure that the url that is called based on user input is part of a whitelist
 * whitelist + network layer protection: ensure that only whitelisted urls can be reached via the network (e.g. through firewall configurations)
 * blacklist: if a whitelist approach is infeasible, ensure that there is a blacklist which at least comprises the localhost interface and all private internet address ranges (such as 192.168.0.0). This list must be completed with all internally used domain names if the blacklist check occurs at application level (since the DNS translation happens after the blacklist has been checked). 
