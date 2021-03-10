@@ -1,12 +1,11 @@
 # Injection
 Injection attacks are very prevalent, particularly in legacy code. They allow attackers to supply untrusted data to an application, which gets processed as part of a command or query and may alter the foreseen execution flow of that application. 
 There are many variants:
-* [SQL injection](https://owasp.org/www-project-cheat-sheets/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet)
-* [LDAP injection](https://owasp.org/www-project-cheat-sheets/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet.html)
-* [XPath injection](https://owasp.org/www-community/attacks/XPATH_Injection)
+* [SQL injection](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
+* [LDAP injection](https://cheatsheetseries.owasp.org/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet.html)
 * [NoSQL injection](https://erlend.oftedal.no/blog/static-110.html)
-* [OS command injection](https://owasp.org/www-community/attacks/Command_Injection)
-* [XML parser injection](https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing)
+* [OS command injection](https://cheatsheetseries.owasp.org/cheatsheets/OS_Command_Injection_Defense_Cheat_Sheet.html)
+* [XML parser injection](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html)
 * [SMTP header injection](https://portswigger.net/kb/issues/00200800_smtp-header-injection)
 * [expression language injection](https://owasp.org/www-community/vulnerabilities/Expression_Language_Injection)
 * [HTML injection](https://www.acunetix.com/vulnerabilities/web/html-injection/)
