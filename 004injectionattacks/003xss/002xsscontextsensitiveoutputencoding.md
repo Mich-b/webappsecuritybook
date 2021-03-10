@@ -2,15 +2,15 @@
 Since user input can be inserted in many places, context-sensitive output encoding is not that simple. There are, however, some general rules that can be followed. 
 
 ## RULE #0 - Never Insert Untrusted Data 
-You should avoid putting untrusted data anywhere. That is rule 0. If you need to use user input (which you probably do), you must make sure to adhere to rules 1 through 5. 
+You should avoid putting untrusted data anywhere. That is rule 0. 
 
-Directly in a script:
+Do not use untrused data directly in a script:
 
 ```
 <script>...NEVER PUT UNTRUSTED DATA HERE...</script>   
 ```
 
-Inside an HTML comment:
+Do not use untrused data inside an HTML comment:
 
 ```
 <html>
@@ -18,31 +18,33 @@ Inside an HTML comment:
 </html> 
 ```
 
-In an attribute name:
+Do not use untrused data in an attribute name:
 
 ```
 <div ...NEVER PUT UNTRUSTED DATA HERE...=test /> 
 ```
 
-In a tag name:
+Do not use untrused data in a tag name:
 
 ```
 <NEVER PUT UNTRUSTED DATA HERE... href="/test" />
 ```
 
-In a url parameter:
+Do not use untrused data in a url parameter:
 
 ```
 <a href="NEVER PUT UNTRUSTED DATA HERE..." />
 ```
 
-Directly in CSS:
+Do not use untrused data directly in CSS:
 
 ```
 <style>
 ...NEVER PUT UNTRUSTED DATA HERE...
 </style>     
 ```
+
+If you need to use user input (which you probably do), you must make sure to adhere to rules 1 through 5. 
 
 ## RULE #1 - HTML Escape Before Inserting Untrusted Data into HTML Element Content
 When using user input in an HTML context, such as inside tags like `div`, `p`, `b`, `td`, etc. you must make sure to HTML encode the output. 
