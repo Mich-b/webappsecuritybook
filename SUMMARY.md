@@ -57,7 +57,6 @@
 * [Introduction to cryptography](005https\001introductioncryptography.md)
 * [PKI](005https\002pki.md)
 * [Setting up HTTPS](005https\003settinguphttps.md)
-* [HTTPS exercise](005https\004httpsexercise.md)
 * [References](005https\005httpsreferences.md)
 
 ## HTTP Headers for security
