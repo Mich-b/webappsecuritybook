@@ -12,6 +12,3 @@ This assignment counts for 45% of the total Software security & testing course g
 
 # Tools
 All of the assignments can be finished by using free tools such as Netlify, Heroku, [Azure for students](https://azure.microsoft.com/en-us/free/students/), [AWS educate](https://aws.amazon.com/education/awseducate/), and others. Please contact me in case you think you cannot finish the assignments without having to purchase software. 
-
-# General requirements
-Even though each assignment has its own requirements, I expect each application to take the minimum security precautions such as enabling HTTPS and setting protective HTTP headers and cookie flags. 
