@@ -8,7 +8,7 @@ Create one (1) document in the English language in markdown or MS Office or Open
 * A high-quality description of the assignment and the results. You should treat me as a customer of yours. I expect a description of the every step you took.
 
 # Scoring & deadline
-This assignment counts for 45% of the total Software security & testing course grade. The submission deadline is March 24, 23:59.
+This assignment counts for 45% of the total Software security & testing course grade. The submission deadline is March 25, 23:59.
 
 # Tools
 All of the assignments can be finished by using free tools such as Netlify, Heroku, [Azure for students](https://azure.microsoft.com/en-us/free/students/), [AWS educate](https://aws.amazon.com/education/awseducate/), and others. Please contact me in case you think you cannot finish the assignments without having to purchase software. 
