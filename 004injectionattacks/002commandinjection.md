@@ -21,5 +21,5 @@ Defense measures highly depend on the framework (such as PHP) and the Operation 
 * Sanitize input (in the example: remove `;`)
 
 # Source attribution
-Some parts of this page are based on the [OS Command Injection Defense Cheat Sheet](https://owasp.org/www-project-cheat-sheets/cheatsheets/OS_Command_Injection_Defense_Cheat_Sheet), which is licensed under [FLOSS](https://owasp.org/about/).
+Some parts of this page are based on the [OS Command Injection Defense Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/OS_Command_Injection_Defense_Cheat_Sheet.html), which is licensed under [FLOSS](https://owasp.org/about/).
 
