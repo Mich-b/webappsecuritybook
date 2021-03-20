@@ -75,6 +75,6 @@
     * [Assignment # 2](010assignment\002assignment2.md)
     * [Assignment # 3](010assignment\003assignment3.md)
 
-<!--## Exam
+## Exam
 * [Exam](011exam\001exam.md)
-* [Exam retake august 2020](011exam\002examretake.md) -->
+<!--* [Exam retake august 2020](011exam\002examretake.md) -->
