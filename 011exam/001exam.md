@@ -30,8 +30,8 @@ See case _I'm working on the project_
 ## What is it?
 You are employed as a security consultant and are asked to review a blueprint document (case 1 students: your own blueprint, case 2 students: the eample blueprint). You should identify potential risks and provide recommendations to the team that will be implementing it. The scope of these recommendations must cover all topics of the [Software Security course](https://apwt.gitbook.io/software-security/) **in two different contexts**:
 
-Context 1: the project/implementation will be hosted inside the premises of a small organization
-Context 2: the project/implementation will be hosted as SaaS and can be used by multiple large organizations 
+1. Context 1: the project/implementation will be hosted inside the premises of a small organization
+2. Context 2: the project/implementation will be hosted as SaaS and can be used by multiple large organizations 
 
 Topics where recommendations are expected are the following:
 * Context of the project: what are the security / privacy requirements?
