@@ -56,6 +56,8 @@ We usually do not put threats on the diagram to avoid it becoming too cluttered.
 | Attacker with a jail-broken device | Mobile app  | Attacker steals credentials stored in mobile app  | An attacker, with a jailbroken device or otherwise able to inspect the contents of the app may get hold of credentials used to call our back-end  |  Each instance of the mobile app should get its own credential which is registered in our back-end upon first use   |
 | ... | ...  | ... | ... | ... |
 
+You should not overthink this step and you do not have to be a security expert to be able to come up with relevant threats. However, if you do not know where to start, be sure to read the next [subchapter](.\002threatmodelinginspiration.md).
+
 ## Step 5: model the mitigations
 Now that you have a list of threats, you should start thinking about how to mitigate those threats. Optionally, these mitigations can be added to the diagram like so:
 

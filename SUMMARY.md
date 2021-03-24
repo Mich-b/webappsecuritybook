@@ -65,6 +65,7 @@
 ## Threat Modeling
 * [Threat modeling introduction](008threatmodeling\000introthreatmodeling.md)
 * [Threat modeling basics](008threatmodeling\001threatmodelingbasics.md)
+* [Inspiration for threats](008threatmodeling\002threatmodelinginspiration.md)
 
 ## Bringing it all together
 * [A comprehensive overview of controls](007bringingitalltogether.md\000introbringingitalltogether.md)
