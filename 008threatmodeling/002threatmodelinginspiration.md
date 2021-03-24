@@ -16,7 +16,7 @@ Now that you have your model, it's time to investigate it for threats. Gather yo
 Usually not every category is applicable to every component in your DFD. For example, you cannot modify a human (well, unless you are a surgeon perhaps, but that's out of scope), and so tampering is not applicable to users:
 
 |                 | S  |T   |R   |I    |D  |E  |
-| :-------------  |--  |--  |--  |--   |-- |-- |
+|  -------------  |--  |--  |--  |--   |-- |-- |
 | External entity | X  |    | X  |     |   |   |
 | Process         | X  | X  | X  | X   | X |   |
 | Data store      |    | X  | ?! | X   | X |   |
@@ -24,15 +24,15 @@ Usually not every category is applicable to every component in your DFD. For exa
 
 _Note that the '?!' symbol in the repudiation column for data stores refers to data stores acting as audit logs. Normal data stores are not usually subject to repudiation attacks, but data stores containing audit logs may. For example, if an attacker manipulates an audit log he or she may afterwards claim not having performed a certain action. Since the audit logs have been altered, all proof is lost._
 
-Let's take tampering as an example. Tampering means that an unauthorized attacker is able to modify the data. In other words, tampering violates our integrity principle. The tampering threat category can be applied to all components except for external entities. That's pretty intuitive: an attacker can tamper with the data flow, the data store, or the process, but it is hard to tamper with a user (unless you would consider social engineering tampering, but let's not go down that road). So, this table tells us that we should not worry about tampering threats for the external entities in our diagram, but we should do so for all the other components. 
-
-Now, you may wonder, if tampering is a category, that means there should be more specific threats inside that category right? That's true, and here are some examples of specific tampering threats (Microsoft, EoP threat modelling card game):
+Threats can be identified for each category. For example, the following threats would fit in the 'tampering' category:
 * an attacker can replay data without detection because your code does not provide timestamps or sequence numbers
 * an attacker can write to a data store your code relies on
 * an attacker can alter information in a data store because it has open permissions
 * an attacker can change parameters over a trust boundary (e.g. SQL injection from a web application to the server in the data center)
 
-In the end, you should end up with a categorized list of threats for each component in your DFD. Some more advanced threat modelers may create a traceability matrix, which is basically the same but contains more information about the identified threats. 
+In the end, you should end up with a categorized list of threats for each component in your DFD. Some more advanced threat modelers may create a traceability matrix, which is basically the same but contains more information about the identified threats.
+
+Do not overthink the categorization of threats. Sometimes a threat may fit in multiple categories, that does not matter. **The categorization is a means to an end, not the end itself**. The end goal is to come up with a list of threats, regardless their category. 
 
 ## LINDDUN
 While STRIDE focuses on attacks violating the cyber security principles, it does not say a lot about the threats that may exist to the privacy of users. For that, another mnemonic was introduced: `LINDDUN`. While this is outside the scope of this course, feel free to check their website (https://www.linddun.org/linddun) should you ever want to do a threat modeling session that focuses on finding privacy threats. 
@@ -49,6 +49,7 @@ For people that know the game 'wiezen', it should be easy to get acquainted with
 * If a player doesn’t have a card in the hand that was lead, they may play any card. Elevation of Privilege cards are 'trumps' ('troef') that beat any other suit. Only the suit lead or Elevation of Privilege can win the hand.
 
 So there are two ways to get a point:
+
 1. by applying the threat that's on the card when playing the card => threat + vulnerable component must be recorded in the notes;
 2. by taking the trick ('slag') => this must also be recorded in the notes;
 

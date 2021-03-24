@@ -18,17 +18,19 @@ A DFD consists of:
 * arrows: these represent **data flows** (e.g. the data flow from a user to the single page app)
 * dotted lines: these represent trust boundaries (e.g. the data center's network)
 
-![](docimages/2021-03-24-09-38-13.png)
+![](docimages/2021-03-24-10-30-59.png)
 
-Note that different people may use different notations, but the above 5 elements are always present in a DFD. Once your DFD is finished, it should already give you a good view on the entry points of the application (i.e. `the attack surface`). You should always keep the attack surface as small as possible. Examples of actions that increase the attack surface are: opening ports, adding certificates, adding (technical) users, writing files, opening firewall ports, etc. 
+Note that different people may use different notations, but the above 5 elements are always present in a DFD. 
 
 ## Step 1: build the model
 Create the DFD of the application you are going to build. An example DFD is shown in the figure below:
 
 ![](docimages/2021-03-24-09-53-20.png)
 
+Once you have completed this step, you should already have a good view on the entry points of the application (i.e. `the attack surface`). You should always keep the attack surface as small as possible. Examples of actions that increase the attack surface are: opening ports, adding certificates, adding (technical) users, writing files, opening firewall ports, etc. 
+
 ## Step 2: identify the assets you want to protect
-You always have to keep in mind what exactly you wish to protect: does your database contain confidential information? Do you want to protect your source code? Where do you store credentials? 
+You always have to keep in mind what exactly you wish to protect: does your database contain confidential information? Do you want to protect your source code? Where do you store credentials? The goal of this step is to identify these assets and add them to the diagram. 
 
 ![](docimages/2021-03-24-09-54-47.png)
 
@@ -58,7 +60,7 @@ We usually do not put threats on the diagram to avoid it becoming too cluttered.
 
 You should not overthink this step and you do not have to be a security expert to be able to come up with relevant threats. However, if you do not know where to start, be sure to read the next [subchapter](.\002threatmodelinginspiration.md).
 
-## Step 5: model the mitigations
+## Optional - Step 5: model the mitigations
 Now that you have a list of threats, you should start thinking about how to mitigate those threats. Optionally, these mitigations can be added to the diagram like so:
 
 ![](docimages/2021-03-24-10-17-51.png)
