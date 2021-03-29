@@ -48,10 +48,10 @@ A good advice is clear and to the point. There is no predetermined best length. 
 However, I would expect a solid advice to count somewhere between 5 to 10 pages. 
 
 ## What does the defense look like
-On DATE TO BE DETERMINED a +-20-minute interview will be planned with your team. This interview will be separate from the project review interview, which takes place on the same day. 
+On June 23, a +-20-minute interview will be planned with your team. This interview will be separate from the project review interview, which takes place on the same day. 
 
 I will be asking some questions about the recommendations you made. For those who have been implementing the project, I may ask concrete questions about how certain recommendations were implemented or configured. 
 In case I have doubts about your understanding of certain concepts, I may ask a theoretical question here and there. Be sure to review the course book before this interview. 
 
 ## Questions
-A session where you can ask questions has been scheduled on DATE TO BE DETERMINED. The link to join can be found in the Software Security Teams channel. 
+A session to ask questions is planned on Wednesday the 5th of May, 09:00. The link to join can be found in the Software Security Teams channel. 
