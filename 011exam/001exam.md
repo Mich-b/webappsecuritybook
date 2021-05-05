@@ -47,6 +47,9 @@ Note, given in the list above are simply examples. There may be other things tha
 A good advice is clear and to the point. There is no predetermined best length. A visualization may say more than a thousand words, but may take up more or less space than these thousand words. 
 However, I would expect a solid advice to count somewhere between 5 to 10 pages. 
 
+## In which language do I have to create the document
+You may create the document in Dutch. If you have already started creating it in English, you can proceed as such. 
+
 ## What does the defense look like
 On June 23, a +-20-minute interview will be planned with your team. This interview will be separate from the project review interview, which takes place on the same day. 
 
