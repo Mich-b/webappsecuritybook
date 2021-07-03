@@ -2,7 +2,7 @@
 For those of you who failed the Software Security & Testing course, it is mandatory to retake both the Security part and the Testing part. This document explains the details of the Security part of the retake. 
 
 # Practicalities
-You should complete the retake by yourself. No groups may be formed. 
+**You should complete the retake by yourself**. No groups may be formed. Even in case multiple members of your group have to retake the exam, you must not cooperate. Submissions will be checked for plagiarism. 
 
 # Retake contents
 The retake requires you to - elaborate upon / fix / answer questions about - your original assignment as well as your security strategy document (which was the exam):
@@ -20,7 +20,8 @@ Create one (1) document in the Dutch or English language in markdown or MS Offic
 * Part 2: Security strategy document fixes
 
 Other formatting requirements are the following:
-* You will be asked to fix code. The fixed code can be hosted on Github, Gitlab, Bitbucket, or any other source control system. I suggest you work in a private repository, but do make sure to invite me so that I have access to the source code. You can invite `mboeynaems(at)outlook(dot)com` or username `Mich-b`. 
+* You may be asked to fix/improve code. The fixed code can be hosted on Github, Gitlab, Bitbucket, or any other source control system. I suggest you work in a private repository, but do make sure to invite me so that I have access to the source code. You can invite `mboeynaems(at)outlook(dot)com` or username `Mich-b`. 
+* Since you must complete the retake on your own, make sure to fork the original repository and make the code fixes in your own repo. 
 * Since you will be asked to fix code, you must make sure your application is up and running again. Provide me (in the document) with the URL of your running application. 
 
 # Will there be an oral defense
