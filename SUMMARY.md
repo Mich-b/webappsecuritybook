@@ -69,13 +69,3 @@
 
 ## Bringing it all together
 * [A comprehensive overview of controls](007bringingitalltogether.md\000introbringingitalltogether.md)
-
-<!-- ## Assignment
-* [General instructions](010assignment\000general.md)
-    * [Assignment # 1](010assignment\001assignment1.md)
-    * [Assignment # 2](010assignment\002assignment2.md)
-    * [Assignment # 3](010assignment\003assignment3.md)
-
-## Exam
-* [Exam](011exam\001exam.md)
-* [Exam retake august 2021](011exam\002examretake.md) -->
