@@ -92,7 +92,8 @@ Accept-Language: en-US,en;q=0.9,nl;q=0.8
 Servers can use these headers to determine whether or not the request came from a trusted source. 
 
 This mechanism is not recommended since `Origin` and `Referrer` header are not always included and attackers have been able to forge these headers in the past. 
- 
 
 ## Do not use cookies 
-This protection mechanism is mentioned last, even though it is the simplest one to implement: simply do not use a cookie to store a user's session. In practice however, cookies are very often used for exactly that purpose. It is only in recent years that some applications take a pure asynchronous API-based approach where the front-end interacts with the back-end using API calls only. Surely these API calls must also be authenticated and authorized, but most of the time that is done by adding a token to an HTTP request header (such as the 'Authorization' request header). In such a setup, sometimes no cookies are used and therefore no risk for CSRF exists. 
+This protection mechanism is mentioned last, even though it is the simplest one to implement: simply do not use a cookie to store a user's session. In practice however, cookies are very often used for exactly that purpose. 
+
+It is only in recent years that some applications take a pure asynchronous API-based approach where the front-end interacts with the back-end using API calls only. Surely these API calls must also be authenticated and authorized, but most of the time that is done by adding a token to an HTTP request header (such as the 'Authorization' request header). In such a setup, sometimes no cookies are used and therefore no risk for CSRF exists. 
