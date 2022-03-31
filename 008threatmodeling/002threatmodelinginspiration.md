@@ -56,4 +56,4 @@ So there are two ways to get a point:
 The person taking notes can use the following template: https://github.com/adamshostack/eop/blob/master/EoP_Score%20Card.pdf . **It is important to document each identified threat**. 
 
 # Source attribution
-Some parts of this page are based on [Cryptographic hash function](https://www.microsoft.com/en-us/download/details.aspx?id=20303) by Microsoft, which is licensed under [CC-BY-SA 3](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License).
+Some parts of this page are based on [Elevation of Privilege (EoP) Threat Modeling Card Game](https://www.microsoft.com/en-us/download/details.aspx?id=20303) by Microsoft, which is licensed under [CC-BY-SA 3](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License).
