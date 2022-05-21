@@ -3,7 +3,7 @@ Cross-Origin Resource Sharing (CORS) is a mechanism that uses additional HTTP he
 
 As we've seen before, browsers restrict cross-origin HTTP requests initiated from scripts for security reasons. For example, XMLHttpRequest and the Fetch API follow the same-origin policy. This means that a web application using those APIs can only request resources from the same origin the application was loaded from, unless the response from other origins includes the right CORS headers. CORS relaxes SOP.
 
-#CORS headers
+# CORS headers
 ## Access-Control-Allow-Origin
 `Access-Control-Allow-Origin` specifies either a single origin, which tells browsers to allow that origin to access the resource. A wildcard can be specified using `*`, but then allow-credentials will not work. Example:
 
