@@ -1,7 +1,7 @@
 # Application Security Verification Standard
 During this course, we have covered some very important topics about web application security. However, you have to keep in mind that this course is by no means an exhaustive summary of all possible attacks. Therefore, if you ever release a real-life application, you should first validate it using the Application Security Verification standard. This standard provides a basis for designing, building, and testing technical application security controls, including architectural concerns, secure development lifecycle, threat modelling, agile security including continuous integration / deployment, serverless, and configuration concerns.
 
-This standard is not among the required study material. However, please take a look at it to **get a comprehensive overview** (including the ones covered in this course) of all the controls that you should include in your web application. Go to https://github.com/OWASP/ASVS#latest-released-version to download the latest version of the standard. 
+This standard is not among the required study material. However, please take a look at it to **get a comprehensive overview** (including the ones covered in this course) of all the controls that you should include in your web application. Go to [https://github.com/OWASP/ASVS#latest-released-version](https://github.com/OWASP/ASVS#latest-released-version)  to download the latest version of the standard. 
 
 # Top resources to use in a devsecops environment
 This list provides you with some resources that I have found to be very useful. I will regularly update this list. 
