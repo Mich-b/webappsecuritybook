@@ -3,7 +3,7 @@ The **same-origin policy** is a critical security mechanism that restricts how a
 However, since the web originally had no security boundaries built in, SOP was only added later. This sadly means that SOP does not apply to everything and thus makes it sometimes hard to understand. In what follows, an overview is given of which requests are subject to the SOP and which ones are not. 
 
 # What is cross-origin
-Web content's **origin** is defined by the _scheme_ (protocol), _host_ (domain), and _port_ of the URL used to access it. Two objects have the same origin only when the scheme, host, and port all match.
+Web content's **origin** is defined by the _scheme_ (protocol), _host_ (domain), and _port_ of the URL used to access it. Two objects have the same origin only when the scheme, host, and port all match. If one of these three elements is different, the call is considered cross origin. 
 
 For examples, see https://developer.mozilla.org/en-US/docs/Glossary/origin
 
