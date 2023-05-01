@@ -1,6 +1,8 @@
 # Cross-site scripting (XSS)
 Cross-Site Scripting (XSS) attacks are a type of injection attack, in which malicious scripts are injected into otherwise benign and trusted websites. XSS attacks are successful when these malicious scripts are then shown in victim users' browsers. Since the victim user’s browser has no way to know that the script should not be trusted, it will be executed. Moreover, because it runs on the same origin as the trusted application, the malicious script can access any cookies, session tokens, or other sensitive information retained by the browser and used with that site. These scripts can even rewrite the content of the HTML page.
 
+The following video explains quite well how XSS works and how it was used to hack Twitter by [creating a self-retweeting tweet](https://www.youtube.com/watch?v=zv0kZKC6GAM).
+
 # Impact of XSS
 Successful XSS attacks often lead to a serious compromise of your application. Attackers may steal cookies, they can initiate forged requests (leading to CSRF), they can manipulate the DOM, steal security tokens, etc. [This website](http://www.xss-payloads.com/) keeps a list of potentially useful XSS payloads. 
 
