@@ -1,7 +1,7 @@
 # Multitier architecture
 A typical architecture used in software is the multitier architecture. The amount of tiers can differ, depending on the complexity of the application. In its most simplest form, there is just one tier. However, this is bad software design and small changes will have a large impact. 
 
-The three-tier archtiecture separates the presentation tier, the logic tier, and the data tier. When writing a web application, you should think about the software architecture before building the application:
+The three-tier architecture separates the presentation tier, the logic tier, and the data tier. When writing a web application, you should think about the software architecture before building the application:
 * what logic is going to be executed by JavaScript (client-side)? 
 * what logic is going to be executed server-side? 
 * how is my server-side logic going to access the database?
