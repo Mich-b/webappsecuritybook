@@ -50,13 +50,14 @@ Of course, you are free to add other types of threat actors depending on the con
 ![](docimages/2021-03-24-09-56-29.png)
 
 ## Step 4: Start thinking about the threats
-This is the core step, since it's here where you will start thinking about the possible threats. 
+This is the core step, since it's here where you will start thinking about the possible threats.
 We usually do not put threats on the diagram to avoid it becoming too cluttered. Instead, they are written down:
 
 | Threat actor   | Vulnerable component  | Threat   | Threat details | Optional: mitigation   |
-| -------------  |--  |--  |--  |--   |-- |-- |
+| -------------  | --  | -- | -- | -- |
 | Attacker with a jail-broken device | Mobile app  | Attacker steals credentials stored in mobile app  | An attacker, with a jailbroken device or otherwise able to inspect the contents of the app may get hold of credentials used to call our back-end  |  Each instance of the mobile app should get its own credential which is registered in our back-end upon first use   |
 | ... | ...  | ... | ... | ... |
+
 
 You should not overthink this step and you do not have to be a security expert to be able to come up with relevant threats. However, if you do not know where to start, be sure to read the next [subchapter](.\002threatmodelinginspiration.md).
 
