@@ -15,7 +15,7 @@ A much better solution would be to decouple the authentication logic from the re
 
 ![](docimages/2020-02-19-07-39-23.png)
 
-The applications now have to _trust_ the authentication component. The existance of trust is why this pattern is called _federation_. Applications trust a central authentication component, to which they federate the authentication responsibility. 
+The applications now have to _trust_ the authentication component. The existence of trust is why this pattern is called _federation_. Applications trust a central authentication component, to which they federate the authentication responsibility. 
 
 The _PEP_ on the image is the _Policy Enforcement Point_. This is a generic term for the small part of logic that has to remain in each application to make sure a user went through the central authentication component before trying to access the application. 
 
