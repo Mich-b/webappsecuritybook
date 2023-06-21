@@ -42,7 +42,7 @@ The permissions `allow-scripts` and `allow-same-origin` are given, since otherwi
 **NEVER** use `allow-scripts` and `allow-same-origin` together if your iframe has the same origin as the top level document. In that case, the frame will have the same origin as the top level document, and since it has permission to run script it can simply remove the sandbox attribute from its own iframe element. 
 
 ## CSP
-A sandbox directive exists for CSP as well, allowing to sandbox the requested resource. This allows you to restrict the usage of pp-ups, plugins, or scripts and assign the requested resource a random origin. 
+A sandbox directive exists for CSP as well, allowing to sandbox the requested resource. This allows you to restrict the usage of pop-ups, plugins, or scripts and assign the requested resource a random origin. 
 
 Let's imagine that you build a website, where there is one section for admins (`https://www.example.org/admin/...`), and another section for users (`https://www.example.org/users/...`). Each user is given a profile page, and users have complete control over their page. There are no input nor output validations on their profile pages. Now, sometimes the administrators of that website will access a user's profile page. Since the user section and the admin section are running on the same origin (only the path differs), this is a security nightmare. However, what if you configure your web server to always return the following CSP header for any page in the path `users/...` :
 
