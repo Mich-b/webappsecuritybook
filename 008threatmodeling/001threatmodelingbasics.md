@@ -9,7 +9,7 @@ Even though models are an important tool to be used during threat modeling, crea
 
 # How to threat model
 ## Step 0: learn the notation
-Many times you will work together with software architectus, who perhaps have already created a model of the software architecture. Or perhaps you have created on yourself. Any model can be used during a threat modeling session, and there's usually no need to come up with a new model. However, in case there is no model yet, it is advised to create a Data Flow Diagrams (DFD). 
+Many times you will work together with software architects, who perhaps have already created a model of the software architecture. Or perhaps you have created on yourself. Any model can be used during a threat modeling session, and there's usually no need to come up with a new model. However, in case there is no model yet, it is advised to create a Data Flow Diagrams (DFD). 
 
 A DFD consists of:
 * rectangles: these represent **external entities**, interacting with the system (e.g. a user)
