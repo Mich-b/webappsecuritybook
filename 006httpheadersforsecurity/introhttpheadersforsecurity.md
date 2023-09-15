@@ -1,5 +1,5 @@
 # HTTP headers for security
-We have already covered the use of two security headers: `Content Security Policy` and `Strict-Transport-Security`. We could use these to tell the browser in detail what was and what was not allowed. Headers are _configured_ by the application administrator (since they are response headers) but are _enforced_ by the browser. 
+We have already covered the use of two security headers: `Content Security Policy` and `Strict-Transport-Security`. We could use these to tell the browser in detail what was and what was not allowed. Headers are _configured_ by the application administrator (since they are response headers) but are _enforced_ by the browser.  
 
 Other HTTP headers which are designed for security exist. They are very easy to configure and are a quick win in most cases. 
 
@@ -67,9 +67,40 @@ Many features exist, and thus can be blocked by this header. These include the f
 
 For a full overview, please see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy . 
 
+## Cross-Origin-Embedder-Policy (COEP)
+COEP can be used to enforce that all cross-origin resources that your website is loading are loaded with either CORS or CORP. The potential values of the COEP header are:
+* `unsafe-none`: default value, no enforcement takes place
+* `require-corp`: CORS or CORP headers must be present in order to allow the resource to be loaded
+
+## Cross-Origin Resource Sharing (CORS)
+We discussed the CORS headers already (such as `Access-Control-Allow-Origin`) and have seen that these **relax** the default security protections offered by the SOP (Same Origin Policy) to allow resources to be loaded by different origins. 
+
+## Cross-Origin-Resource-Policy (CORP)
+The Same Origin Policy, as we have seen, protects against cross-origin reads. However, the Same Origin Policy never blocked cross-origin _embedding_ [as we discussed before](./../001introduction/003basicbrowsersecurityconcepts/001sameoriginpolicy.md). 
+With CORP, we can **tighten** the Same Origin Policy so that also these cross-origin embeds (script loads, image loads, etc.) are blocked. Note that CORP therefore only affects cross-origin requests that by default are allowed by the Same Origin Policy.  
+
+Possible values are:
+* `same-site`: Only requests from the same Site can read the resource (a site is defined as by the registrable domain portion of the domain name. The registrable domain portion consists of an entry in the [public suffix list](https://publicsuffix.org/list/) plus the portion of the domain name just before it. Examples are duckduckgo.com, splynter.be, ap.be).
+* `same-origin`: Only requests from the same origin (i.e. scheme + host + port) can read the resource.
+* `cross-origin`: Requests from any origin (both same-site and cross-site) can read the resource. This value only makes sense when COEP is used. 
+
+## Cross-Origin-Opener-Policy (COOP)
+When opening an application in a pop-up (e.g. via `window.open()`), the document that opened the pop-up by default still has a reference to it. This reference is normally not very useful to an attacker (as the SOP will still be in place), but in light of very sophisticated attacks such a reference may pose a risk. COOP will process-isolate your document so that potential attackers can't access your global object if they were to open it in a popup. 
+
+Potential values of the COOP header are:
+* `unsafe-none`: default value, no additional safety measures are put in place
+* `same-origin-allow-popups`: reference to popups with an unsafe-none policy is kept
+* `same-origin`: full isolation to same-origin documents
+
+## Cross-Origin Read Blocking (CORB)
+This last one is technically not a security header, but is a security feature (such as SOP) that was introduced in response to the Meltdown and Spectre vulnerabilities. We discuss it here because it relates a lot to the COEP, CORP, and COOP headers. These headers came after the CORB concept was introduced. CORB will prevent the browser from delivering cross-origin content to the requesting document, unless it is explicitly allowed (e.g. through a CORS header). 
+
+Note that CORP and CORB are very much related, but they are definitely not the same. While CORP allows you as a resource owner to restrict access to all of your resources, CORB will make sure that by default attackers are not able to request data (such as some JSON) by making it look like a media resource (such as a script) - for example by requesting `<img src="https://api.bank.com/balance.json">`. A browser supporting CORB would verify that the requested data is indeed a media resource and if not, block it (unless it is explicitly allowed by CORS). Do note that the resource must have configured the `X-Content-Type-Options: nosniff` header for this to work. CORB blocking should prevent CORB-protected response data from **ever being present in the memory of the process** hosting a cross-origin website (even temporarily or for a short term). This is different from the concept of filtered responses (e.g. CORS filtered response or opaque filtered response) which just provide a limited view into full data that remains stored in an internal response and may be implemented inside the renderer process.
+
+_The COEP, COOP, CORP headers (and CORB) are protecting against very sophisticated attackers, exploiting modern CPU vulnerabilities such as Spectre or Meltdown. ._
+
 ## Check your headers
 You can run your website through https://securityheaders.com/ to see how your website is doing with regards to HTTP Security Headers. Make sure you score an A or better!
 
-
 # Source attribution
-Some parts of this page are based on [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options), [X-XSS-Protection](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection), [X-Content-Type-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options), [Referrer-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy) and [Using Feature Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Feature_Policy/Using_Feature_Policy) by Mozilla Contributors, which are licensed under [CC-BY-SA 2.5](http://creativecommons.org/licenses/by-sa/2.5/).
+Some parts of this page are based on [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options), [X-XSS-Protection](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection), [X-Content-Type-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options), [Referrer-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy), [Using Feature Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Feature_Policy/Using_Feature_Policy), [Cross-Origin-Opener-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy) and [Cross-Origin Resource Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cross-Origin_Resource_Policy) by Mozilla Contributors, which are licensed under [CC-BY-SA 2.5](http://creativecommons.org/licenses/by-sa/2.5/). Some other parts are based on [Cross-Origin Read Blocking](https://chromium.googlesource.com/chromium/src/+/HEAD/services/network/cross_origin_read_blocking_explainer.md#How-does-CORB-block-a-response) by Chromium. 
