@@ -87,7 +87,7 @@ Two types of key generation algorithms exist:
 * dynamic 
 * static
 
-In fact, we have already covered the static variant in our explanation about asymmetric encryption. Indeed, asymmetric encryption was only used to encrypt a symmetric key, which could then used further to encrypt large amounts of bulk data. In other words, the sender `generated` a symmetric key and communicated it to the receiver using asymmetric encryption. Most asymmetric encryption algorithms can therefore be used as a static key generation algorithm (such as RSA). 
+In fact, we have already covered the static variant in our explanation about asymmetric encryption. Indeed, asymmetric encryption was only used to encrypt a symmetric key, which could then be used further to encrypt large amounts of bulk data. In other words, the sender `generated` a symmetric key and communicated it to the receiver using asymmetric encryption. Most asymmetric encryption algorithms can therefore be used as a static key generation algorithm (such as RSA). 
 
 The other variant, the dynamic one, is special. These allow us to generate a shared secret on the fly, thus also providing forward secrecy. While we won't dive into the details of dynamic secret generation, it suffices to understand that two parties using these algorithms can securely generate a shared secret over an untrusted channel. Dynamic key generation algorithms include:
 * DH(E)
