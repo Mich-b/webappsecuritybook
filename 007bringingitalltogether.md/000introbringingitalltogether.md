@@ -12,3 +12,4 @@ This list provides you with some resources that I have found to be very useful. 
 * https://github.com/toniblyx/my-arsenal-of-aws-security-tools 
 * https://bettercrypto.org/ 
 * https://www.owasp-risk-rating.com/
+* https://cyberchef.io/
