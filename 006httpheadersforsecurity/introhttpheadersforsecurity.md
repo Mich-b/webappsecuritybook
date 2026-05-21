@@ -1,5 +1,5 @@
 # HTTP headers for security
-We have already covered the use of two security headers: `Content Security Policy` and `Strict-Transport-Security`. We could use these to tell the browser in detail what was and what was not allowed. Headers are _configured_ by the application administrator (since they are response headers) but are _enforced_ by the browser.  
+We have already covered the use of two security headers: `Content Security Policy` and `Strict-Transport-Security`. We have also covered several [CORS headers](..\001introduction\003basicbrowsersecurityconcepts\002crossoriginresourcesharing.md), but we made the argument that these are relaxing the security rather than strengthening it. We could use these to tell the browser in detail what was and what was not allowed. Headers are _configured_ by the application administrator (since they are response headers) but are _enforced_ by the browser.  
 
 Other HTTP headers which are designed for security exist. They are very easy to configure and are a quick win in most cases. 
 
