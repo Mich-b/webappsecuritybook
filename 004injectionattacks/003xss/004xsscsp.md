@@ -79,7 +79,7 @@ Typical values are the following:
 * `unsafe-eval`: allows unsafe dynamic code evaluation such as JavaScript eval()
 * `nonce-`: allows script or style tag to execute if the nonce attribute value matches the header value. Example: `<script nonce="2726c7f26c">alert("hello");</script>`
 * `sha256-XXX`: allow a specific script or style to execute if it matches the hash. Example: sha256-qznLcsROx4GACP2dm0UCKCzCG+HiZ1guq6ZZDob/Tng= 
-* `strict-dynamic`: propagate trust to all the scripts loaded by that root script. At the same time, any whitelist or source expressions such as 'self' or 'unsafe-inline' will be ignored. 
+* `strict-dynamic`: propagate trust to all the scripts loaded by that root script. At the same time, any allowlist or source expressions such as 'self' or 'unsafe-inline' will be ignored. 
 
 
 # Source attribution

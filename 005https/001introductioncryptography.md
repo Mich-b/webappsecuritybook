@@ -18,7 +18,7 @@ Symmetric algorithms used often today are:
 * Threefish
 
 # Public key cryptography
-Public key cryptography is seen as black magic by some, while in reality it leans on basic mathematical concepts to achieve its properties. 
+Public key cryptography is seen as magic by some, while in reality it leans on basic mathematical concepts to achieve its properties. 
 
 In general, public key cryptography can be used for three purposes:
 * asymmetric encryption

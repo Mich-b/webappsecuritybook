@@ -26,7 +26,7 @@ Note that a SQL injection payload that is often used to test for SQL injection v
 Fool-proof mechanisms exist in almost every programming language to prevent SQL injection from occurring. Typically, the following prevention measures exist:
 * Use parametrized queries
 * Use stored procedures (but does not guarantee protection)
-* Whitelist input validation (but does not guarantee protection)
+* Allowlist input validation (but does not guarantee protection)
 * Escape user input (but does not guarantee protection)
 
 The recommended approach is to use parametrized queries. 

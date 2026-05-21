@@ -20,7 +20,7 @@ The `Access-Control-Allow-Headers` header is used in response to a preflight req
 `Access-Control-Allow-Headers: Authorization, Content-Type`  
 
 ## Access-Control-Expose-Headers
-The `Access-Control-Expose-Headers` header lets a server whitelist headers that browsers are allowed to access. Example:
+The `Access-Control-Expose-Headers` header lets a server allowlist headers that browsers are allowed to access. Example:
 
 `Access-Control-Expose-Headers: X-My-Custom-Header` 
 
